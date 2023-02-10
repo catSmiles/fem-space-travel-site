@@ -30,6 +30,7 @@ we'll be off to a running start
 
 <img src="outside-img/how-I-will-approach-this.png">
 
+<img src="outside-img/lets-dive-in.png">
 
 
 
