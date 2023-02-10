@@ -32,6 +32,9 @@ we'll be off to a running start
 
 <img src="outside-img/lets-dive-in.png">
 
+<img src="outside-img/utility-classes.png">
+
+
 
 
 
