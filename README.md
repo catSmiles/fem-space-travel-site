@@ -19,5 +19,18 @@ things page by page.
 
 <img src="outside-img/the-design-system-space-tourism.png">
 
+How I will approach this
+
+- Custom properties are
+- Utility classes will allow us to save time
+in the long run
+- Don't stress too much on the layout
+- We won't have everything we need, but
+we'll be off to a running start
+
+<img src="outside-img/how-I-will-approach-this.png">
+
+
+
 
 
