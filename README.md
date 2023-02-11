@@ -50,6 +50,10 @@ we'll be off to a running start
 
 <img src="outside-img/adding-the-spacing.png">
 
+<img src="outside-img/interactive-elements.png">
+
+<img src="outside-img/the-explore-button.png">
+
 
 
 

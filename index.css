@@ -118,7 +118,6 @@ select {
 /* .flow > * + * === .flow > *:not(:first-child) == .flow > *:where(:not(:first-child)) */
 .flow > *:where(:not(:first-child)) { /* css will apply for the second child element of parent element (has class is flow) */
   margin-top: var(--flow-space, 1rem);
-  outline: 1px solid red;
 }
 
 .container {
@@ -188,4 +187,17 @@ select {
   margin-right: .5em;
   font-weight: 700;
   color: hsl( var(--clr-white) / .25);
+}
+
+/* ------------------- */
+/* Compontents         */
+/* ------------------- */
+
+.large-button {
+  display: grid;
+  place-items: center;
+  padding: 0 2em;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  text-decoration: none;
 }
