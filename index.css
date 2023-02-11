@@ -58,7 +58,7 @@ h4,
 h5,
 h6,
 p {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 /* set up the body */
@@ -103,6 +103,8 @@ select {
 /* Utility classes     */
 /* ------------------- */
 
+/* general */
+
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
@@ -116,7 +118,7 @@ select {
 .container {
   padding-inline: 2em;
   margin-inline: auto;
-  max-width: 60rem;
+  max-width: 80rem;
 }
 
 .sr-only {
@@ -129,20 +131,6 @@ select {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap; /* added line */
   border: 0;
-}
-
-.box {
-  background-color: lightblue;
-  padding: 3rem;
-}
-
-.call-to-action {
-  --gap: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  background-color: pink;
-  padding: 2rem;
-  border-radius: 1rem;
 }
 
 /* colors */
@@ -180,8 +168,6 @@ select {
 .fs-800,
 .fs-700,
 .fs-600 {
-    line-height: 1.1;
+  line-height: 1.1;
 }
-
-
 
