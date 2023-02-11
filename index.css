@@ -115,6 +115,12 @@ select {
   gap: var(--gap, 1rem);
 }
 
+/* .flow > * + * === .flow > *:not(:first-child) == .flow > *:where(:not(:first-child)) */
+.flow > *:where(:not(:first-child)) { /* css will apply for the second child element of parent element (has class is flow) */
+  margin-top: var(--flow-space, 1rem);
+  outline: 1px solid red;
+}
+
 .container {
   padding-inline: 2em;
   margin-inline: auto;

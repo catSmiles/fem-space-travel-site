@@ -48,6 +48,7 @@ we'll be off to a running start
 
 <img src="outside-img/numbered-titles-2.png">
 
+<img src="outside-img/adding-the-spacing.png">
 
 
 
