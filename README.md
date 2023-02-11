@@ -34,6 +34,11 @@ we'll be off to a running start
 
 <img src="outside-img/utility-classes.png">
 
+<img src="outside-img/color.png">
+
+<img src="outside-img/tick-using-rgb-or-hsl.png">
+
+
 
 
 
