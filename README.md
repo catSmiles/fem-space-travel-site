@@ -42,6 +42,13 @@ we'll be off to a running start
 
 <img src="outside-img/break-things-up.png">
 
+<img src="outside-img/numbered-titles.png">
+
+<img src="outside-img/finding-the-right-balance.png">
+
+<img src="outside-img/numbered-titles-2.png">
+
+
 
 
 
