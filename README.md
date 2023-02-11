@@ -58,6 +58,9 @@ we'll be off to a running start
 
 <img src="outside-img/underlined-indicators-2.png">
 
+<img src="outside-img/dot-indicators.png">
+
+
 
 
 
