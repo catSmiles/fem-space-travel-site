@@ -38,6 +38,12 @@ we'll be off to a running start
 
 <img src="outside-img/tick-using-rgb-or-hsl.png">
 
+<img src="outside-img/typography.png">
+
+<img src="outside-img/break-things-up.png">
+
+
+
 
 
 
