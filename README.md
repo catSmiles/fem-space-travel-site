@@ -60,6 +60,7 @@ we'll be off to a running start
 
 <img src="outside-img/dot-indicators.png">
 
+<img src="outside-img/numbered-indicators.png">
 
 
 
