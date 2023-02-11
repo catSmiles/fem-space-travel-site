@@ -54,6 +54,11 @@ we'll be off to a running start
 
 <img src="outside-img/the-explore-button.png">
 
+<img src="outside-img/underlined-indicators.png">
+
+<img src="outside-img/underlined-indicators-2.png">
+
+
 
 
 
