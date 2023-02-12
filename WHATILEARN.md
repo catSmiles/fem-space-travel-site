@@ -31,3 +31,20 @@ The minmax() function is particularly useful for creating responsive designs, as
 
 Link description: https://bitsofco.de/how-the-minmax-function-works/
 
+### How the clamp() Function works
+
+The "clamp()" function in CSS is a relatively new function that allows you to specify a range of values for a property, similar to the "minmax()" function. However, the "clamp()" function provides a more flexible way to set ranges, as it allows you to specify three values instead of just two.
+
+The "clamp()" function takes three arguments: a minimum value, a preferred value, and a maximum value. If the preferred value is within the specified range, it will be used as the value of the property. If the preferred value is outside of the range, the minimum or maximum value will be used instead, depending on which value is closer to the preferred value.
+
+Here's an example of how to use the "clamp()" function in CSS:
+
+    .element {
+      font-size: clamp(12px, 2vw, 18px);
+    }
+
+In this example, the font-size of the .element will be set to 2vw, as long as the resulting size is between 12px and 18px. If the calculated size is less than 12px, the font-size will be set to 12px. If the calculated size is greater than 18px, the font-size will be set to 18px.
+
+The "clamp()" function provides a more flexible way to set ranges for CSS properties, as it allows you to set a preferred value that can be overridden if necessary to meet the specified range. This can be useful for ensuring that text remains legible on different screen sizes, for example.
+
+Note that using clamp() for font sizes, as in these examples, allows you to set a font-size that grows with the size of the viewport, but doesn't go below a minimum font-size or above a maximum font-size. It has the same effect as the code in Fluid Typography but in one line, and without the use of media queries.
