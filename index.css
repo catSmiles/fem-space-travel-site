@@ -26,23 +26,23 @@
 
 @media (min-width: 35em) {
   :root {
-    /* font-sizes */
-    --fs-800: 5rem;
-    --fs-700: 2.5rem;
-    --fs-600: 1.5rem;
-    --fs-400: 1rem;
+      --fs-800: 5rem;
+      --fs-700: 2.5rem;
+      --fs-600: 1.5rem;
+      --fs-400: 1rem;
   }
 }
 
 @media (min-width: 45em) {
   :root {
-    /* font-sizes */
-    --fs-800: 6.25rem;
-    --fs-700: 3.5rem;
-    --fs-600: 2rem;
-    --fs-400: 1.125rem;
+      /* font-sizes */
+      --fs-800: 6.25rem;
+      --fs-700: 3.5rem;
+      --fs-600: 2rem;
+      --fs-400: 1.125rem;
   }
 }
+
 
 /* ------------------- */
 /* Reset               */
@@ -110,15 +110,16 @@ select {
 
 /* remove animations for people who've turned them off */
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+*,
+*::before,
+*::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
 }
+}
+
 
 /* ------------------- */
 /* Utility classes     */
@@ -129,11 +130,6 @@ select {
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
-}
-
-.flex.even-columns > * {
-  width: 100%;
-  outline: 1px solid limegreen;
 }
 
 .grid {
@@ -158,14 +154,23 @@ select {
 }
 
 .grid-container {
+  text-align: center;
   border: 5px solid limegreen;
   display: grid;
+  place-items: center;
+  padding-inline: 1rem;
+
+}
+
+.grid-container * {
+  max-width: 50ch;
 }
 
 @media (min-width: 45em) {
   .grid-container {
+      text-align: left;
       column-gap: var(--container-gap, 2rem);
-      grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(2rem, 1fr);
+      grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(1rem, 1fr);
   }
 
   .grid-container > *:first-child {
@@ -177,18 +182,31 @@ select {
       grid-column: 3;
       outline: 1px solid yellow;
   }
+
+  .grid-container--home {
+      padding-bottom: max(6rem, 20vh);
+      align-items: end;
+  }
 }
 
+.grid-container > *:first-child {
+      outline: 1px solid red;
+  }
+
+  .grid-container > *:last-child {
+      outline: 1px solid yellow;
+  }
+
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap; /* added line */
-  border: 0;
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap; /* added line */
+border: 0;
 }
 
 /* colors */
@@ -242,11 +260,13 @@ select {
   color: hsl( var(--clr-white) / .25);
 }
 
+
 /* ------------------- */
 /* Compontents         */
 /* ------------------- */
 
 .large-button {
+  font-size: 2rem;
   position: relative;
   z-index: 1;
   display: inline-grid;

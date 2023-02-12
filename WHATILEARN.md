@@ -48,3 +48,21 @@ In this example, the font-size of the .element will be set to 2vw, as long as th
 The "clamp()" function provides a more flexible way to set ranges for CSS properties, as it allows you to set a preferred value that can be overridden if necessary to meet the specified range. This can be useful for ensuring that text remains legible on different screen sizes, for example.
 
 Note that using clamp() for font sizes, as in these examples, allows you to set a font-size that grows with the size of the viewport, but doesn't go below a minimum font-size or above a maximum font-size. It has the same effect as the code in Fluid Typography but in one line, and without the use of media queries.
+
+### How the max() Function works
+
+In CSS, the max function can be used to specify the maximum value for a property. The max function takes one or more values as arguments and returns the highest value of those arguments. For example:
+
+    .element {
+      width: max(500px, 90%);
+    }
+
+In this example, the width property of the .element class will be set to 500px if the parent container is narrower than 500px, and 90% if the parent container is wider than 500px.
+
+The max function can be used with any property that accepts a length, percentage, or number value. For example, you could use max to set the height of an element:
+
+    .element {
+      height: max(300px, 20%);
+    }
+
+In this case, the height of the .element class will be set to 300px if the parent container is shorter than 300px, and 20% if the parent container is taller than 300px.
