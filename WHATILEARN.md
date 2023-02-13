@@ -153,8 +153,34 @@ In this example, the @supports directive is checking if the backdrop-filter prop
 
 It's important to note that the @supports directive is a relatively new CSS feature, and may not be supported by older browsers. Additionally, the backdrop-filter property is not supported by all browsers, so it's important to check for support before using it in your styles.
 
+### what is aspect-ratio CSS
 
+Aspect ratio in CSS refers to the proportional relationship between the width and height of a rectangular element, such as an image or a video. In CSS, aspect ratio can be controlled using padding and a container element with a fixed width.
 
+Here's an example of how aspect ratio can be controlled using CSS:
 
+    .container {
+      width: 500px;
+      height: 0;
+      padding-bottom: 20%;
+    }
+
+    .element {
+      width: 100%;
+      height: 100%;
+    }
+
+In this example, the .container element has a fixed width of 500px, and the padding-bottom property is set to 20%. This means that the height of the container will be 20% of its width, resulting in an aspect ratio of 5:1 (width to height). The .element element inside the container will take up the entire container and maintain the aspect ratio.
+
+Note that this method of controlling aspect ratio only works for a single fixed aspect ratio, and you need to adjust the padding-bottom value to change the aspect ratio. To support multiple aspect ratios, you can use JavaScript or use modern CSS techniques like grid and object-fit.
+
+Definition and Usage
+ - The aspect-ratio property allows you to define the ratio between width and height of an element.
+
+ - If aspect-ratio and width properties are set, the height will follow in the defined aspect ratio.
+
+ - To better understand the aspect-ratio property, view a demo.
+
+ - Tip: Use the aspect-ratio property in responsive layouts where elements often vary in size and you want to preserve the ratio between width and height.
 
 
