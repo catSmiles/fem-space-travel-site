@@ -135,7 +135,23 @@ In this example, the @media (hover: hover) media query checks if the user's devi
 It's important to note that the @media (hover: hover) media query is not supported by all browsers and may require vendor prefixes for cross-browser compatibility. Additionally, devices without hover capabilities, such as touch screens, will not apply the styles specified in the media query.
 
 
+### what is @supports (backdrop-filter: blur(1rem))
 
+The @supports CSS directive allows you to apply styles only if a specific CSS property and value are supported by the user's browser. The directive is used to test for CSS feature support, and styles within the directive will only be applied if the property and value are supported.
+
+In the case of @supports (backdrop-filter: blur(1rem)), the @supports directive is checking if the backdrop-filter property with a value of blur(1rem) is supported by the user's browser. If it is supported, the styles within the directive will be applied. If it is not supported, the styles will be ignored.
+
+Here's an example of how to use the @supports (backdrop-filter: blur(1rem)) directive in CSS:
+
+    @supports (backdrop-filter: blur(1rem)) {
+      div {
+        backdrop-filter: blur(1rem);
+      }
+    }
+
+In this example, the @supports directive is checking if the backdrop-filter property with a value of blur(1rem) is supported. If it is, the backdrop-filter property will be applied to a div element with a blur of 1 rem. If it is not supported, the styles within the @supports directive will be ignored.
+
+It's important to note that the @supports directive is a relatively new CSS feature, and may not be supported by older browsers. Additionally, the backdrop-filter property is not supported by all browsers, so it's important to check for support before using it in your styles.
 
 
 
