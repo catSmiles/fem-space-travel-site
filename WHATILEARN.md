@@ -184,3 +184,74 @@ Definition and Usage
  - Tip: Use the aspect-ratio property in responsive layouts where elements often vary in size and you want to preserve the ratio between width and height.
 
 
+### order in Flex CSS?
+
+The order property in CSS Flexbox is used to specify the order of elements within a flex container. By default, elements in a flex container are arranged in the order they appear in the HTML document. However, you can use the order property to change this order.
+
+Here's an example:
+
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .element-1 {
+      order: 2;
+    }
+
+    .element-2 {
+      order: 1;
+    }
+
+In this example, .element-1 will be displayed after .element-2, even though .element-1 appears first in the HTML. The order property takes a numerical value, where elements with lower values are displayed first, and elements with higher values are displayed last.
+
+### @media (min-width: 35em) and (max-width: 45em)
+
+The CSS media query @media (min-width: 35em) and (max-width: 45em) specifies that the styles inside the media query will only be applied when the viewport (or screen) width is between 35 and 45 ems.
+
+em is a relative unit of measurement in CSS, which is based on the font size of the parent element. In this case, if the font size of the parent element is 16px, 1em is equal to 16px.
+
+So, 35em is equivalent to 560px (35 * 16) and 45em is equivalent to 720px (45 * 16). Therefore, the styles inside this media query will only be applied when the viewport width is between 560px and 720px.
+
+This media query can be useful for creating responsive designs and adjusting the layout and styling of a website based on the screen size of the device being used to view it.
+
+### @media (min-width: 35em)
+
+The CSS media query @media (min-width: 35em) specifies that the styles inside the media query will only be applied when the viewport (or screen) width is 35 ems or greater.
+
+em is a relative unit of measurement in CSS, which is based on the font size of the parent element. In this case, if the font size of the parent element is 16px, 1em is equal to 16px.
+
+So, 35em is equivalent to 560px (35 * 16). Therefore, the styles inside this media query will only be applied when the viewport width is 560px or greater.
+
+This media query can be useful for creating responsive designs and adjusting the layout and styling of a website based on the screen size of the device being used to view it. For example, you can use this media query to apply styles for larger screens, such as desktop computers, and make sure that these styles are not applied to smaller screens, such as smartphones.
+
+### @media (max-width: 45em)
+
+The CSS media query @media (max-width: 45em) specifies that the styles inside the media query will only be applied when the viewport (or screen) width is 45 ems or less.
+
+em is a relative unit of measurement in CSS, which is based on the font size of the parent element. In this case, if the font size of the parent element is 16px, 1em is equal to 16px.
+
+So, 45em is equivalent to 720px (45 * 16). Therefore, the styles inside this media query will only be applied when the viewport width is 720px or less.
+
+This media query can be useful for creating responsive designs and adjusting the layout and styling of a website based on the screen size of the device being used to view it. For example, you can use this media query to apply styles for smaller screens, such as smartphones, and make sure that these styles are not applied to larger screens, such as desktop computers.
+
+### what is margin-block CSS
+
+The margin-block CSS property sets the margin on the block-start and block-end sides of an element. It is used to specify the space outside an element, on the top and bottom of the element.
+
+The margin-block property is part of the CSS Box Model, which defines the layout and positioning of elements on a web page. The Box Model consists of four components: the content, padding, border, and margin. The content of an element is surrounded by the padding, which is surrounded by the border, which is surrounded by the margin.
+
+The margin-block property can be set using a length, percentage, or one of the following keywords:
+
+auto: sets the margin to an automatically calculated value, usually to center an element horizontally within its container
+inherit: inherits the value from the parent element
+Here's an example of how you can use the margin-block property:
+
+    p {
+      margin-block: 20px;
+    }
+    
+In this example, a 20px margin is set on the top and bottom of every <p> element.
+
+
+
