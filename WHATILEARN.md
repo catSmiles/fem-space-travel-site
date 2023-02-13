@@ -66,3 +66,39 @@ The max function can be used with any property that accepts a length, percentage
     }
 
 In this case, the height of the .element class will be set to 300px if the parent container is shorter than 300px, and 20% if the parent container is taller than 300px.
+
+### What is the inset CSS property
+
+The inset CSS property is a shorthand that corresponds to the top, right, bottom, and/or left properties. It has the same multi-value syntax of the margin shorthand.
+
+Definition and Usage
+ - The inset property sets the distance between an element and the parent element.
+
+The inset property is a shorthand property for the following properties:
+   + top
+   + bottom
+   + left
+   + right
+
+Links description:
+ - https://www.w3schools.com/cssref/css_pr_inset.php
+ - https://developer.mozilla.org/en-US/docs/Web/CSS/inset
+
+### How to min() Function works
+
+The min() function in CSS is a mathematical function that returns the minimum of two or more values. It is part of the CSS Calc() function, which allows you to perform calculations in CSS to determine values for CSS properties.
+
+Here's an example of how to use the min() function in CSS to set the width of an element:
+
+    div {
+      width: min(50%, 500px);
+    }
+
+In this example, the min() function is used to set the width of the div element to either 50% of the parent element's width or 500 pixels, whichever is smaller.
+
+The min() function can be useful in responsive design, as it allows you to set a limit on the size of an element, regardless of the size of the parent element. For example, you could use the min() function to ensure that a text area never becomes smaller than a certain size, regardless of the size of the viewport.
+
+It's important to note that the min() function can only be used with CSS Calc(). This means that you cannot use the min() function on its own, but must use it in conjunction with other CSS properties and values.
+
+
+
