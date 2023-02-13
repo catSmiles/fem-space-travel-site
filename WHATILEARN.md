@@ -250,8 +250,28 @@ Here's an example of how you can use the margin-block property:
     p {
       margin-block: 20px;
     }
-    
+
 In this example, a 20px margin is set on the top and bottom of every <p> element.
+
+### what is padding-inline CSS
+
+The padding-inline CSS property sets the padding on the inline-start and inline-end sides of an element. It is used to specify the space inside an element, on the left and right of the element.
+
+The padding-inline property is part of the CSS Box Model, which defines the layout and positioning of elements on a web page. The Box Model consists of four components: the content, padding, border, and margin. The content of an element is surrounded by the padding, which is surrounded by the border, which is surrounded by the margin.
+
+The padding-inline property can be set using a length, percentage, or one of the following keywords:
+
+auto: sets the padding to an automatically calculated value, usually to center an element horizontally within its container
+inherit: inherits the value from the parent element
+Here's an example of how you can use the padding-inline property:
+
+    p {
+      padding-inline: 20px;
+    }
+
+In this example, a 20px padding is set on the left and right of every <p> element.
+
+Note: The padding-inline property is not a standard CSS property and may not be supported by all browsers. To specify padding on the left and right sides of an element, you should use the padding-left and padding-right properties instead.
 
 
 
