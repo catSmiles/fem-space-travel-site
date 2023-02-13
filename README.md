@@ -66,6 +66,9 @@ we'll be off to a running start
 
 <img src="outside-img/mobile-navigation.png">
 
+<img src="outside-img/nav-medium-sizes.png">
+
+
 
 
 
