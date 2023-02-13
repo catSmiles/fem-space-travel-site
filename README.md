@@ -68,6 +68,21 @@ we'll be off to a running start
 
 <img src="outside-img/nav-medium-sizes.png">
 
+<img src="outside-img/moon-homepage.png">
+
+<img src="outside-img/mars-homepage.png">
+
+<img src="outside-img/europa-homepage.png">
+
+<img src="outside-img/titan-homepage.png">
+
+<img src="outside-img/all-screens-moon.png">
+
+
+
+
+
+
 
 
 
