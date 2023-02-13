@@ -100,5 +100,45 @@ The min() function can be useful in responsive design, as it allows you to set a
 
 It's important to note that the min() function can only be used with CSS Calc(). This means that you cannot use the min() function on its own, but must use it in conjunction with other CSS properties and values.
 
+### What is backdrop-filter?
+
+The backdrop-filter property in CSS is used to apply graphical effects (such as blur or color adjustment) to the area behind an element. The backdrop-filter property applies effects to the entire element, including any parts of the element that are transparent.
+
+Here's an example of how to use the backdrop-filter property in CSS to blur the area behind an element:
+
+    div {
+      backdrop-filter: blur(10px);
+    }
+
+In this example, the backdrop-filter property is used to apply a 10 pixel blur to the area behind the div element.
+
+It's important to note that the backdrop-filter property is not supported by all browsers and may require vendor prefixes for cross-browser compatibility. Additionally, the performance of the backdrop-filter property may be poor on older devices, so it's important to use it judiciously.
+
+Links description:
+ - https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php
+ - https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter
+
+### what is @media (hover: hover)
+
+`@media (hover: hover)` is a media query in CSS that checks if the user's device has a hover capability, such as a mouse, trackpad, or touch screen with hovering capabilities. This media query allows you to apply specific styles only when the user is hovering over an element with a mouse or other device that provides hover capability.
+
+Here's an example of how to use the @media (hover: hover) media query in CSS:
+
+    @media (hover: hover) {
+      a:hover {
+        color: red;
+      }
+    }
+
+In this example, the @media (hover: hover) media query checks if the user's device has hover capability. If it does, the styles inside the media query will be applied, making the text color of an a element red when the user hovers over it with a mouse or other device that provides hover capability.
+
+It's important to note that the @media (hover: hover) media query is not supported by all browsers and may require vendor prefixes for cross-browser compatibility. Additionally, devices without hover capabilities, such as touch screens, will not apply the styles specified in the media query.
+
+
+
+
+
+
+
 
 
